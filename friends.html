@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="css/styles.css">
-    <title>Welcome to Coffee Talk</title>
+    <title>Friends - Coffee talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -24,22 +24,14 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">
-            Welcome to Coffee Talk
-        </h1>
-        <p class="welcome-header__text">
-            If you have a Coffee Account, log in with your email. or phone number.
-        </p>
-    </header>
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log In">
-        <input type="submit" value="Sign Up">
-        <a href="#">Find Coffee Account or Password</a>
-    </form>
-
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-regular fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-ellipsis fa-2x"></i></a></li>
+        </ul>
+    </nav>
     <script src="https://kit.fontawesome.com/5601166983.js" crossorigin="anonymous"></script>
 </body>
 </html>

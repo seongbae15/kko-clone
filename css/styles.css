@@ -1,23 +1,13 @@
-.status-bar {
-  display: flex;
-}
-.status-bar__column {
-  width: 33%;
-}
-.status-bar__column:first-child span {
-  margin-right: 5px;
-}
-.status-bar__column:nth-child(2) {
-  display: flex;
-  justify-content: center;
-}
+@import "reset.css";
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+/* Compoenents */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+/* Screens */
+@import "screens/login.css";
 
-.status-bar__column:last-child {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.status-bar .fa-battery-quarter {
-  margin: 0px 5px;
+body {
+  font-family: "Ubuntu", sans-serif;
+  height: 1000vh;
 }
