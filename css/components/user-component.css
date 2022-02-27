@@ -1,3 +1,6 @@
+.user-components {
+  justify-content: space-between;
+}
 .user-components,
 .user-component__column:first-child {
   display: flex;
@@ -7,7 +10,7 @@
 .user-component__avartar {
   width: 70px;
   height: 70px;
-  border-radius: 33%;
+  border-radius: 30px;
   margin-right: 20px;
 }
 
@@ -15,6 +18,13 @@
   width: 80px;
   height: 80px;
 }
+
+.user-component__avartar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+
 .user-component__title {
   font-weight: 700;
   font-size: 22px;
@@ -23,5 +33,13 @@
 .user-component__subtext {
   margin-top: 8px;
   font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
+}
+
+.user-components:last-child {
   color: rgba(0, 0, 0, 0.5);
 }
