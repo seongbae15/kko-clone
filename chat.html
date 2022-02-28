@@ -26,12 +26,12 @@
 
     <header class="alt-header">
         <div class="alt-header__column">
-            <a href="more.html">
+            <a href="chats.html">
                 <i class="fa-solid fa-angle-left fa-2x"></i>
             </a>
         </div>
         <div class="alt-header__column">
-            <h1 class="alt-header__title">Who are you</h1>
+            <h1 class="alt-header__title">Noru</h1>
         </div>
         <div class="alt-header__column">
             <span>
@@ -42,8 +42,41 @@
             </span>
         </div>
     </header>
-    <main class="main-screen more-screen">
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__comment">
+                    <span class="message__comment-text">Hi! Nice to meet you.</span>
+                    <span class="message__comment-time">12:30</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row">
+            <img src="https://avatars.githubusercontent.com/u/67509744?v=4"/>
+            <div class="message-row__content">
+                <span class="message__author">Noru</span>
+                <div class="message__comment">
+                    <span class="message__comment-text">Hi!</span>
+                    <span class="message__comment-time">12:20</span>
+                </div>
+            </div>
+        </div>
     </main>
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-xl"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="fa-regular fa-face-grin-wink fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up fa-lg"></i>
+            </button>
+        </div>
+    </form>
     <script src="https://kit.fontawesome.com/5601166983.js" crossorigin="anonymous"></script>
 </body>
 </html>
