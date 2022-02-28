@@ -25,60 +25,40 @@
     </div>
 
     <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
+        <h1 class="screen-header__title">Find</h1>
         <div class="screen-header__icons">
             <span>
                 <i class="fa-solid fa-magnifying-glass fa-lg"></i>
             </span>
             <span>
-                <i class="fa-solid fa-music fa-lg"></i>
-            </span>
-            <span>
+                <div class="screen-header__new-mark"></div>
                 <i class="fa-solid fa-gear fa-lg"></i>
             </span>
         </div>
     </header>
 
-    <a id="friends-display-link">
-        <i class="fa-solid fa-circle-info"></i>
-        Friend's Names Display
-        <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-
     <main class="main-screen">
-        <div class="user-components">
-            <div class="user-component__column">
-                <img src="https://avatars.githubusercontent.com/u/67509744?v=4"
-                 class="user-component__avartar user-component__avartar--xl" />
-                <div class="user-component__text">
-                    <h4 class="user-component__title">Seongbae</h4>
-                    <h6 class="user-component__subtext"></h6>
-                </div>
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-qrcode"></i>
+                <span>QR Code</span>
             </div>
-            <div class="user-component__column"></div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-solid fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-regular fa-envelope"></i>
+                <span>Invite</span>
+            </div>
         </div>
-        <div class="friends-screen__channel">
-            <div class="friends-screen__channel-header">
-                <span>Channel</span>
-                <i class="fa-solid fa-chevron-up fa-sx"></i>
-            </div>
-            <div class="user-components">
-                <div class="user-component__column">
-                    <img src="https://avatars.githubusercontent.com/u/67509744?v=4"
-                     class="user-component__avartar user-component__avartar--sm" />
-                    <div class="user-component__text">
-                        <h4 class="user-component__title user-component__title--not-bold">Seongbae</h4>
-                        <h6 class="user-component__subtext"></h6>
-                    </div>
-                </div>
-                <div class="user-component__column">
-                    <div>
-                        <span>2</span>
-                        <i class="fa-solid fa-chevron-right fa-sx"></i>    
-                    </div>
-                </div>
-            </div>
-
+        <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommened Friends</h6>
+            <span>You have no recommended friends.</span>
         </div>
     </main>
 
@@ -86,7 +66,7 @@
         <ul class="nav__list">
             <li class="nav__btn">
                 <a class="nav__link" href="friends.html">
-                    <i class="fa-solid fa-user fa-2x"></i>
+                    <i class="fa-regular fa-user fa-2x"></i>
                 </a>
             </li>
             <li class="nav__btn">
